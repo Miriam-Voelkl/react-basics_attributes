@@ -2,5 +2,31 @@ import React from "react";
 import "./styles.css";
 
 export default function App() {
-  return <div>Replace me with an article</div>;
+  return Article();
+}
+
+function Article() {
+  return (
+    <article className="article">
+      <h2 className="article__title">What is your favorite starter Pokemon?</h2>
+      <label htmlFor="favorite-pokemon-charmander">
+        <input id="favorite-pokemon-charmander" type="radio" />
+        Charmander 🔥
+      </label>
+      <label htmlFor="favorite-pokemon-bulbasaur">
+        <input id="favorite-pokemon-bulbasaur" type="radio" />
+        Bulbasaur 🌱
+      </label>
+      <label htmlFor="favorite-pokemon-squirtle">
+        <input id="favorite-pokemon-squirtle" type="radio" />
+        Squirtle 💧
+      </label>
+      <a
+        className="article__link"
+        href="https://bulbapedia.bulbagarden.net/wiki/Main_Page"
+      >
+        Learn more about Pokemon
+      </a>
+    </article>
+  );
 }
