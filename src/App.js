@@ -10,15 +10,27 @@ function Article() {
     <article className="article">
       <h2 className="article__title">What is your favorite starter Pokemon?</h2>
       <label htmlFor="favorite-pokemon-charmander">
-        <input id="favorite-pokemon-charmander" type="radio" />
+        <input
+          id="favorite-pokemon-charmander"
+          name="favorite-pokemon"
+          type="radio"
+        />
         Charmander 🔥
       </label>
       <label htmlFor="favorite-pokemon-bulbasaur">
-        <input id="favorite-pokemon-bulbasaur" type="radio" />
+        <input
+          id="favorite-pokemon-bulbasaur"
+          name="favorite-pokemon"
+          type="radio"
+        />
         Bulbasaur 🌱
       </label>
       <label htmlFor="favorite-pokemon-squirtle">
-        <input id="favorite-pokemon-squirtle" type="radio" />
+        <input
+          id="favorite-pokemon-squirtle"
+          name="favorite-pokemon"
+          type="radio"
+        />
         Squirtle 💧
       </label>
       <a
